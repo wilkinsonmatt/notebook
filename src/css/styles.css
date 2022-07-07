@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
+
+body {
+  background-color: black;
+  background-image: url("https://i.pinimg.com/736x/b1/23/d6/b123d670a63a1bb746971e43327e622b.jpg");
+  font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+  width: 300px;
+  height: 75%;
+  margin: 2%;
+  align-content: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  border: none;
+  padding: 2%;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border-radius: 25px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  border-style: double;
+  border-width: 5px;
+  border-color: black;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.default {
+  background-color: black;
+  font-family: 'Nunito', sans-serif;
+}
+
+.leopard {
+  background-image: url("https://media.istockphoto.com/vectors/pink-leopard-print-seamless-pattern-vector-id1056014940?k=20&m=1056014940&s=612x612&w=0&h=d0Sfth3YwzS9vrIqGoSxBgF6OK5S7SfPp8GGojrV2wY=");
+  font-family: 'Nunito', sans-serif;
+}
+
+.lisa {
+  background-image: url("https://i.pinimg.com/736x/3b/1a/45/3b1a45093838bca8b564003748c84aaa--cute-unicorn-rainbow-unicorn.jpg");
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  background-color: white;
+  color: black;
+  border-style: double;
+  border-width: 5px;
+  border-color: black;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container {
+  border-radius: 25px;
+  background-color: white;
+  background-image: url(../../assets/images/lines.jpg);
+  background-size: 100%;
+  padding: 5%;
+  position: relative;
+  margin-top: 75px;
+  display: block;
+  text-align: left;
+  border-style: double;
+  border-width: 5px;
+  border-color: gainsboro;
+  box-sizing: border-box;
+  margin-left: 350px;
+  max-width: 800px;
+  z-index: 1;
+}
+
+#new-title,
+#new-topic {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  font-family: 'Nunito', sans-serif;
+  text-align: left;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+#new-content {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  font-family: 'Nunito', sans-serif;
+  text-align: left;
+  font-size: medium;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: black;
+  color: white;
+  border-style: double;
+  border-width: 5px;
+  border-color: gainsboro;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+#default-btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: medium;
+  margin-top: 5px;
+  color: white;
+  border-style: double;
+  border-width: 5px;
+  border-color: gainsboro;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+#leopard-btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: medium;
+  margin-top: 5px;
+  background-image: url("https://media.istockphoto.com/vectors/pink-leopard-print-seamless-pattern-vector-id1056014940?k=20&m=1056014940&s=612x612&w=0&h=d0Sfth3YwzS9vrIqGoSxBgF6OK5S7SfPp8GGojrV2wY=");
+  color: white;
+  border-style: double;
+  border-width: 5px;
+  border-color: gainsboro;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+#lisa-btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: medium;
+  margin-top: 5px;
+  background-image: url("https://i.pinimg.com/736x/3b/1a/45/3b1a45093838bca8b564003748c84aaa--cute-unicorn-rainbow-unicorn.jpg");
+  color: white;
+  border-style: double;
+  border-width: 5px;
+  border-color: gainsboro;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.deleteButton {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: medium;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: black;
+  color: white;
+  border-style: double;
+  border-width: 5px;
+  border-color: gainsboro;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+#delete-btn{
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  padding-bottom: 40px;
+}
+
+#show-note {
+  display: none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 20px;
+  border-style: double;
+  border-width: 5px;
+  border-color: gainsboro;
+  box-sizing: border-box;
+}
+
+#instructions {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.theme-buttons {
+  text-align: center;
+}
+
+@keyframes comeInOut {
+  0% { transform: scale(0); }
+  50% { transform: scale(1); }
+  100% { transform: scale(0); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(180deg); }
+}
+
+.sparkling {
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+  font-weight: bold;
+  color: #FFC700;
+}
+
+.sparkling > span {
+  z-index: -1;
+  position: absolute;
+  display: block;
+  animation: comeInOut 700ms forwards;
+}
+
+.sparkling > span > svg {
+  display: block;
+  animation: spin 1000ms linear;
+}
+
+.a{color: #E7484F}
+.b{color: #F68B1D}
+.c{color: #FCED00}
+.d{color: #009E4F}
+.e{color: #00AAC3}
+.f{color:  #732982}
+
+
+
+.rainbow{
+  background-color: black;
+  border-radius: 4px;  
+  color: #fff;
+  cursor: pointer;
+  padding: 8px;
+  /* margin-top: 10px; */
+  
+}
+
+.rainbow-1:hover{
+   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+   animation:slidebg 5s linear infinite;
+}
+
+.rainbow-2:hover{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+  animation:slidebg 2s linear infinite;
+}
+
+.rainbow-3:hover{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+  animation:slidebg 2s linear infinite;
+}
+
+.rainbow-4:hover{
+   background-image:     linear-gradient(
+      to right, 
+      #E7484F,
+      #F68B1D, 
+      #FCED00,
+      #009E4F,
+      #00AAC3,
+      #732982
+    );
+  animation:slidebg 2s linear infinite;
+}
+
+
+.rainbow-5:hover{
+   background-image:     linear-gradient(
+      to right, 
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%
+     
+     
+     
+    );
+  animation:slidebg 2s linear infinite;
+}
+
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
+.follow{
+  margin-top: 40px;
+}
+
+.follow a{
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}

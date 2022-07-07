@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+
+<head>
+  <title>Note Book</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar">
+    <img src="https://pixy.org/src/52/thumbs350/529862.jpg" width=40% class="pencil" alt="A photo of a pencil">
+    <hr>
+    <h1><span class=sparkling>Note</span>book</h1>
+    <hr>
+    <br>
+    <div class="nav-links">
+      <a href="index.html" class="rainbow rainbow-1">Home</a>
+      <br>
+      <br>
+      <a href="#saved-notes-section" class="rainbow rainbow-1">Saved Notes</a>
+    </div>
+    <div class="theme-buttons">
+      <br>
+      <h3>Themes</h3>
+      <button class="btn default" id="default-btn">Default</button>
+      <br>
+      <button class="btn leopard" id="leopard-btn">Leopard</button>
+      <br>
+      <button class="btn lisa" id="lisa-btn">Lisa Frank</button>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <hr>
+        <h2>Add a new <span class=sparkling>note</span>:</h2>
+        <form id="new-note">
+          <div class="form-group">
+            <h3><label for="new-title">Title</label></h3>
+
+            <input type="text" class="form-control" id="new-title" required>
+          </div>
+          <!-- <div class="form-group">
+            <h3><label for="new-date">Date</label></h3>
+
+            <input type="date" class="form-control" id="new-date" required>
+          </div> -->
+          <div class="form-group">
+            <h3><label for="new-topic">Topic</label></h3>
+
+            <select id="new-topic">
+              <option value="select" disabled selected>Select</option>
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="javascript">JavaScript</option>
+              <option value="jquery">JQuery</option>
+              <option value="terminal-commands">Terminal Commands</option>
+              <option value="webpack-environment">Webpack Environment</option>
+              <option value="keyboard-shortcuts">Keyboard Shortcuts</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <h3><label for="new-content">Note</label></h3>
+
+            <textarea id="new-content" cols="100" rows="8" required></textarea>
+            <button class="rainbow rainbow-1" type="submit">Add Note</button>
+            <br>
+          </div>
+      </div>
+    </div>
+    </form>
+    <br>
+    <hr>
+    <h2 id="saved-notes-section">Saved <span class=sparkling>notes</span></h2>
+    <ul id="entries">
+    </ul>
+    <div class="col-md-6">
+      <div id="show-note">
+        <div id="edit" contenteditable="false">
+          <p>Title: <span class="title"></span></p>
+          <p>Date: <span class="date"></span></p>
+          <p>Topic: <span class="topic"></span></p>
+          <p>Content: <span class="content"></span></p>
+        </div>
+        <!-- <div id="instructions">To edit a note, click note text.</div>
+        <input type="button" value="Save edits" id="save" onclick="saveEdits()" /> -->
+        <!-- <div id="update"></div> -->
+        <div id="buttons">
+        </div>
+      </div>
+      <button id="delete-btn" class="btn-primary rainbow rainbow-1" >Delete Local Storage</button>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>
